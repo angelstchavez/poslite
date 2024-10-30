@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 
 const Header = () => {
   return (
-    <header className="sticky top-0">
+    <header className="sticky top-0 backdrop-blur-sm z-20">
       <div className="flex justify-center items-center py-3 bg-primary text-primary-foreground text-sm gap-3">
         <p className="text-white/60 hidden md:block">
           Racionalice su flujo de trabajo y aumente su productividad
