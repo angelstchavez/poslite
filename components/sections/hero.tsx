@@ -2,7 +2,10 @@ import Image from "next/image";
 import { VscArrowRight } from "react-icons/vsc";
 import { Button } from "../ui/button";
 
-import Star from "@/assets/star_green.png";
+import codImage from "@/assets/cog.png";
+import cylinderImage from "@/assets/cylinder.png";
+import noodleImage from "@/assets/noodle.png";
+
 
 const Hero = () => {
   return (
@@ -14,7 +17,7 @@ const Hero = () => {
               Versión 2.0 is here
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#1b1fff] text-transparent bg-clip-text mt-6">
-              Pahway to productivbity
+              Mejora la productividad
             </h1>
             <p className="text-xl tracking-tight mt-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -32,18 +35,18 @@ const Hero = () => {
           </div>
           <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
             <Image
-              src={Star}
+              src={codImage}
               alt="Cod Image"
               className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6"
             />
             <Image
-              src={Star}
+              src={cylinderImage}
               alt="Cod Image"
               width="220"
               className="hidden md:block -top-8 -left-32 md:absolute"
             />
             <Image
-              src={Star}
+              src={noodleImage}
               alt="Cod Image"
               width="220"
               className="hidden lg:block absolute top-[524px] left-[448px]"
