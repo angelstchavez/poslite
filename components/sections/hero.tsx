@@ -11,7 +11,6 @@ import {
   motion,
   useScroll,
   useTransform,
-  useMotionValueEvent,
 } from "framer-motion";
 import { useRef } from "react";
 
@@ -23,10 +22,6 @@ const Hero = () => {
   });
 
   const translateY = useTransform(scrollYProgress, [0, 1], [150, -150]);
-
-  useMotionValueEvent(scrollYProgress, "change", (latestValue) => {
-    console.log(latestValue);
-  });
 
   return (
     <section
