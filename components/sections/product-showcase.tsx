@@ -14,7 +14,7 @@ const ProductShowcase = () => {
             </div>
           </div>
           <h2 className="text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-5">
-            A more effectiveway to track progress
+            Una forma más eficaz de seguir el progreso
           </h2>
           <p className="text-center text-[22px] leading-[30px] tracking-tight mt-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

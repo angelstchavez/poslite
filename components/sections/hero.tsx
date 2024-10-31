@@ -9,14 +9,14 @@ import noodleImage from "@/assets/noodle.png";
 
 const Hero = () => {
   return (
-    <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#1b1fff,#ffffff_100%)] overflow-x-clip">
+    <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#001E80,#ffffff_100%)] overflow-x-clip">
       <div className="container mx-auto px-4">
         <div className="md:flex items-center">
           <div className="md:w-[478px]">
             <div className="text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight">
               Versión 2.0 is here
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#1b1fff] text-transparent bg-clip-text mt-6">
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
               Mejora la productividad
             </h1>
             <p className="text-xl tracking-tight mt-6">
