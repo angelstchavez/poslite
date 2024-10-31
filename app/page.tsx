@@ -1,3 +1,4 @@
+import Footer from "@/components/sections/footer";
 import Header from "@/components/sections/header";
 import Hero from "@/components/sections/hero";
 import LogoTicket from "@/components/sections/logo-ticket";
@@ -12,6 +13,7 @@ export default function Home() {
       <LogoTicket />
       <ProductShowcase />
       <Pricing />
+      <Footer />
     </>
   );
 }
