@@ -56,7 +56,7 @@ const pricingTiers = [
 
 const Pricing = () => {
   return (
-    <section className="py-24 ">
+    <section className="py-24 bg-gradient-to-b from-white to-[#D2DCFF] overflow-x-clip">
       <div className="container mx-auto px-4">
         <h2 className="text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-5">
           Precios
@@ -70,7 +70,7 @@ const Pricing = () => {
             <div
               key={index}
               className={twMerge(
-                "p-10 border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs",
+                "bg-white p-10 border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs",
                 tier.inverse && "bg-black text-white border-white"
               )}
             >

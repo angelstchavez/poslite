@@ -22,7 +22,7 @@ const LogoTicket = () => {
   return (
     <div className="py-8 md:py-12 bg-white">
       <div className="container mx-auto px-4">
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black,black,transparent)]">
           <motion.div
             className="flex gap-14 animate-scroll mask-gradient pr-14"
             animate={{
